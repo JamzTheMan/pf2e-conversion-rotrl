@@ -1,7 +1,3 @@
-Hooks.once('init', async function() {
-
-});
-
-Hooks.once('ready', async function() {
-
+Hooks.once('init', async function () {
+	console.log("### PF2e Conversion - RotRL Initialized.")
 });

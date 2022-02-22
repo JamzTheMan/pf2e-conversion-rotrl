@@ -1,71 +1,33 @@
-![](https://img.shields.io/badge/Foundry-v0.8.6-informational)
-<!--- Downloads @ Latest Badge -->
-<!--- replace <user>/<repo> with your username/repository -->
-<!--- ![Latest Release Download Count](https://img.shields.io/github/downloads/<user>/<repo>/latest/module.zip) -->
+## A Foundry VTT module containing PF2e conversions for Rise of the Runelords PF2e Conversion
 
-<!--- Forge Bazaar Install % Badge -->
-<!--- replace <your-module-name> with the `name` in your manifest -->
-<!--- ![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2F<your-module-name>&colorB=4aa94a) -->
+### *This is an Unofficial conversion...*
 
+Based on work done by volunteers at [A Series of Dice Based Events - RiseOfTheRunelords](https://github.com/A-Series-of-Dice-Based-Events/RiseOfTheRunelords)
+For more information or to contribute, join us in the [A Series of Dice-Based Events Discord](https://discord.gg/UQ8UD3H).
 
-# How to use this Template to create a versioned Release
+* * *
 
-1. Open your repository's releases page.
+Currently, this module is updated to work with Foundy VTT v9.x and includes:
+ * Converted NPC's from Chapters 1-4
+ * Most Scenes (with walls and lights) for Chapters 3-4
+ * A LOT of extra artwork and alternate maps. Everyone has different tastes and some community created content has been lost over the last decade but a few of us have tried to collect and preserve it. After installing the module, look in `modules/pf2e-conversion-rotrl/images` folder.
 
-![Where to click to open repository releases.](https://user-images.githubusercontent.com/7644614/93409301-9fd25080-f864-11ea-9e0c-bdd09e4418e4.png)
+Some scenes that I used for Chapters 3 & 4 had to be omitted because official images from Paizo were used to run those scenes but you fill find most of the major scenes ready to run, just drop actors from the compendiums.
 
-2. Click "Draft a new release"
+What you will not find are journal entries for room text or chapter background info as that would not be OGL. You will also need to find art for all the NPC's for the same reason.
 
-![Draft a new release button.](https://user-images.githubusercontent.com/7644614/93409364-c1333c80-f864-11ea-89f1-abfcb18a8d9f.png)
+I have spun up a data entry world to host this module and if you would like to fill in the gaps like missing scene or actors, hit me up on discord.
 
-3. Fill out the release version as the tag name.
+* * *
 
-If you want to add details at this stage you can, or you can always come back later and edit them.
+TODO:
+ * Journal entries for Jorgenfist infiltration Subsystem & The Ancient Library Subsystem by Lawrencelot#3356
+ * Add NPC's for Chapters 5 & 6 (coming soon!)
+ * Add Scenes for Chapters 1, 2, & 5 (soonish?)
+ * Macro or some method to include actors placed on scenes, maybe...
+ 
+* * *
 
-![Release Creation Form](https://user-images.githubusercontent.com/7644614/93409543-225b1000-f865-11ea-9a19-f1906a724421.png)
+_No Copyright Materials_
 
-4. Hit submit.
-
-5. Wait a few minutes.
-
-A Github Action will run to populate the `module.json` and `module.zip` with the correct urls that you can then use to distribute this release. You can check on its status in the "Actions" tab.
-
-![Actions Tab](https://user-images.githubusercontent.com/7644614/93409820-c1800780-f865-11ea-8c6b-c3792e35e0c8.png)
-
-6. Grab the module.json url from the release's details page.
-
-![image](https://user-images.githubusercontent.com/7644614/93409960-10c63800-f866-11ea-83f6-270cc5d10b71.png)
-
-This `module.json` will only ever point at this release's `module.zip`, making it useful for sharing a specific version for compatibility purposes.
-
-7. You can use the url `https://github.com/<user>/<repo>/releases/latest/download/module.json` to refer to the manifest.
-
-This is the url you want to use to install the module typically, as it will get updated automatically.
-
-# How to List Your Releases on Package Admin
-
-To request a package listing for your first release, go to the [Package Submission Form](https://foundryvtt.com/packages/submit) (accessible via a link at the bottom of the "[Systems and Modules](https://foundryvtt.com/packages/)" page on the Foundry website).
-
-Fill in the form. "Package Name" must match the name in the module manifest.  Package Title will be the display name for the package.  Package URL should be your repo URL.
-![image](https://user-images.githubusercontent.com/36359784/120664263-b49e5500-c482-11eb-9126-af7006389903.png)
-
-
-One of the Foundry staff will typically get back to you with an approval or any further questions within a few days, and give you access to the package admin pages.
-
-Once you have access to the [module admin page](https://foundryvtt.com/admin/packages/package/), you can release a new version by going into the page for your module, scrolling to the bottom, and filling in a new Package Version.
-
-When listing a new version, Version should be the version number you set above, and the Manifest URL should be the manifest __for that specific version__ (do not use /latest/ here).
-![image](https://user-images.githubusercontent.com/36359784/120664346-c4b63480-c482-11eb-9d8b-731b50d70939.png)
-
-> ### :warning: Important :warning:
-> 
-> It is very important that you use the specific release manifest url, and not the `/latest` url here. For more details about why this is important and how Foundry Installs/Updates packages, read [this wiki article](https://foundryvtt.wiki/en/development/guides/releases-and-history).
-
-Clicking "Save" in the bottom right will save the new version, which means that anyone installing your module from within Foundry will get that version, and a post will be generated in the #release-announcements channel on the official Foundry VTT Discord.
-
-
-# FoundryVTT Module
-
-Does something, probably
-
-## Changelog
+_Please do not submit PDF files or entire texts, or any images or maps from the AP. Only submit modifications necessary to convert to 2E, such as the DCs and 2E builds of NPCs/Monsters/Hazards/Items plus XP and 2E level based treasure. Please include a location number or name for each encounter or item so GMs can cross-reference with the original scenario._
