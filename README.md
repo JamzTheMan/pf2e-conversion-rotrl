@@ -10,7 +10,7 @@ For more information or to contribute, join us in the [A Series of Dice-Based Ev
 
 https://github.com/JamzTheMan/pf2e-conversion-rotrl/releases/latest/download/module.json
 
-*Note: This module only contains Compendium Packs and can be turned off after importing any scenes or actors you want/need into your world.*
+*Note: This module only contains Compendium Packs and can be turned off after importing any scenes or actors you want/need into your world, but you should leave it installed if you imported any scenes or used any artwork from the module folder.*
 
 * * *
 
