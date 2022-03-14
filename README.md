@@ -8,7 +8,8 @@ For more information or to contribute, join us in the [A Series of Dice-Based Ev
 * * *
 
 Currently, this module is updated to work with Foundy VTT v9.x and includes:
- * Converted NPC's from Chapters 1-4
+ * All Converted NPC's plus a couple of variants
+ * A few loot actors for Chapter 3 & 4
  * Most Scenes (with walls and lights) for Chapters 3-4
  * A LOT of extra artwork and alternate maps. Everyone has different tastes and some community created content has been lost over the last decade but a few of us have tried to collect and preserve it. After installing the module, look in `modules/pf2e-conversion-rotrl/images` folder.
 
@@ -22,8 +23,6 @@ I have spun up a data entry world to host this module and if you would like to f
 
 TODO:
  * Journal entries for Jorgenfist infiltration Subsystem & The Ancient Library Subsystem by Lawrencelot#3356
- * Add NPC's for Chapters 5 & 6 (coming soon!)
- * Add Scenes for Chapters 1, 2, & 5 (soonish?)
  * Macro or some method to include actors placed on scenes, maybe...
  
 * * *
