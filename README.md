@@ -6,6 +6,13 @@ Based on work done by volunteers at [A Series of Dice Based Events - RiseOfTheRu
 For more information or to contribute, join us in the [A Series of Dice-Based Events Discord](https://discord.gg/UQ8UD3H).
 
 * * *
+### To manually install this module, use this URL as the manifest:
+
+https://github.com/JamzTheMan/pf2e-conversion-rotrl/releases/latest/download/module.json
+
+*Note: This module only contains Compendium Packs and can be turned off after importing any scenes or actors you want/need into your world.*
+
+* * *
 
 Currently, this module is updated to work with Foundy VTT v9.x and includes:
  * All Converted NPC's plus a couple of variants
