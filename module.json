@@ -130,9 +130,9 @@
     "esmodules": [
         "/scripts/module.js"
     ],
-    "url": "https://github.com/JamzTheMan/pf2e-conversion-rotrl",
+    "url": "https://github.com/ezubairov/pf2e-conversion-rotrl",
     "manifest": "https://github.com/ezubairov/pf2e-conversion-rotrl/edit/master/module.json",
-    "download": "https://github.com/JamzTheMan/pf2e-conversion-rotrl/releases/download/1.1.0/module.zip",
+    "download": "https://github.com/ezubairov/pf2e-conversion-rotrl/releases/download/1.0.1/module.zip",
     "media": [
         {
             "type": "icon",
