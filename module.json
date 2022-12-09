@@ -12,43 +12,50 @@
             "name": "rotrl-items",
             "label": "RotRL Items",
             "path": "./packs/rotrl-items.db",
-            "entity": "Item"
+            "entity": "Item",
+            "system": "pf2e"
         },
         {
             "name": "rotrl-creatures-chapter-1",
             "label": "RotRL Creatures - Chapter 1",
             "path": "./packs/rotrl-creatures-chapter-1.db",
-            "entity": "Actor"
+            "entity": "Actor",
+            "system": "pf2e"
         },
         {
             "name": "rotrl-creatures-chapter-2",
             "label": "RotRL Creatures - Chapter 2",
             "path": "./packs/rotrl-creatures-chapter-2.db",
-            "entity": "Actor"
+            "entity": "Actor",
+            "system": "pf2e"
         },
         {
             "name": "rotrl-creatures-chapter-3",
             "label": "RotRL Creatures - Chapter 3",
             "path": "./packs/rotrl-creatures-chapter-3.db",
-            "entity": "Actor"
+            "entity": "Actor",
+            "system": "pf2e"
         },
         {
             "name": "rotrl-creatures-chapter-4",
             "label": "RotRL Creatures - Chapter 4",
             "path": "./packs/rotrl-creatures-chapter-4.db",
-            "entity": "Actor"
+            "entity": "Actor",
+            "system": "pf2e"
         },
         {
             "name": "rotrl-creatures-chapter-5",
             "label": "RotRL Creatures - Chapter 5",
             "path": "./packs/rotrl-creatures-chapter-5.db",
-            "entity": "Actor"
+            "entity": "Actor",
+            "system": "pf2e"
         },
         {
             "name": "rotrl-creatures-chapter-6",
             "label": "RotRL Creatures - Chapter 6",
             "path": "./packs/rotrl-creatures-chapter-6.db",
-            "entity": "Actor"
+            "entity": "Actor",
+            "system": "pf2e"
         },
         {
             "name": "rotrl-scenes-chapter-1",
