@@ -1,8 +1,9 @@
 {
+    "id": "pf2e-conversion-rotrl",
     "name": "pf2e-conversion-rotrl",
     "title": "PF2e Conversion - Rise of the Runelords",
     "description": "A module containing Scenes and PF2e conversions of creatures from Rise of the Runelords.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "library": "false",
     "manifestPlusVersion": "1.0.0",
     "minimumCoreVersion": "9",
@@ -12,43 +13,50 @@
             "name": "rotrl-items",
             "label": "RotRL Items",
             "path": "./packs/rotrl-items.db",
-            "entity": "Item"
+            "entity": "Item",
+            "system": "pf2e"
         },
         {
             "name": "rotrl-creatures-chapter-1",
             "label": "RotRL Creatures - Chapter 1",
             "path": "./packs/rotrl-creatures-chapter-1.db",
-            "entity": "Actor"
+            "entity": "Actor",
+            "system": "pf2e"
         },
         {
             "name": "rotrl-creatures-chapter-2",
             "label": "RotRL Creatures - Chapter 2",
             "path": "./packs/rotrl-creatures-chapter-2.db",
-            "entity": "Actor"
+            "entity": "Actor",
+            "system": "pf2e"
         },
         {
             "name": "rotrl-creatures-chapter-3",
             "label": "RotRL Creatures - Chapter 3",
             "path": "./packs/rotrl-creatures-chapter-3.db",
-            "entity": "Actor"
+            "entity": "Actor",
+            "system": "pf2e"
         },
         {
             "name": "rotrl-creatures-chapter-4",
             "label": "RotRL Creatures - Chapter 4",
             "path": "./packs/rotrl-creatures-chapter-4.db",
-            "entity": "Actor"
+            "entity": "Actor",
+            "system": "pf2e"
         },
         {
             "name": "rotrl-creatures-chapter-5",
             "label": "RotRL Creatures - Chapter 5",
             "path": "./packs/rotrl-creatures-chapter-5.db",
-            "entity": "Actor"
+            "entity": "Actor",
+            "system": "pf2e"
         },
         {
             "name": "rotrl-creatures-chapter-6",
             "label": "RotRL Creatures - Chapter 6",
             "path": "./packs/rotrl-creatures-chapter-6.db",
-            "entity": "Actor"
+            "entity": "Actor",
+            "system": "pf2e"
         },
         {
             "name": "rotrl-scenes-chapter-1",
@@ -122,9 +130,9 @@
     "esmodules": [
         "/scripts/module.js"
     ],
-    "url": "https://github.com/JamzTheMan/pf2e-conversion-rotrl",
-    "manifest": "https://github.com/JamzTheMan/pf2e-conversion-rotrl/releases/latest/download/module.json",
-    "download": "https://github.com/JamzTheMan/pf2e-conversion-rotrl/releases/download/1.1.0/module.zip",
+    "url": "https://github.com/ezubairov/pf2e-conversion-rotrl",
+    "manifest": "https://github.com/ezubairov/pf2e-conversion-rotrl/edit/master/module.json",
+    "download": "https://github.com/ezubairov/pf2e-conversion-rotrl/releases/download/1.0.1/module.zip",
     "media": [
         {
             "type": "icon",
