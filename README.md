@@ -11,6 +11,7 @@ For more information or to contribute, join us in the [A Series of Dice-Based Ev
 1. Click Install Module
 2. Paste the the following into the Manifest URL: `https://github.com/JamzTheMan/pf2e-conversion-rotrl/releases/latest/download/module.json`
 3. Click Install
+
 ![](docs/install-module.webp)
 
 *Note: This module only contains Compendium Packs and can be turned off after importing any scenes or actors you want/need into your world, but you should leave it installed if you imported any scenes or used any artwork from the module folder.*
