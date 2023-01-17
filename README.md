@@ -18,7 +18,7 @@ For more information or to contribute, join us in the [A Series of Dice-Based Ev
 
 * * *
 
-Currently, this module is updated to work with Foundy VTT v10.x/PF2e System v4.5+ and includes:
+Currently, this module is updated to work with Foundry VTT v10.x/PF2e System v4.5+ and includes:
  * All Converted NPC's plus a couple of variants for all 6 chapters
  * A few loot actors for Chapter 3 & 4
  * Most Scenes (with walls and lights) for Chapters 3-4
