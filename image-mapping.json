@@ -1,0 +1,12 @@
+{
+  "rotrl-creatures-chapter-1": {
+    "SwH1OIESE7unhUPT": {
+      "actor": "rotrl/assets/portraits/chapter-1/aldern-foxglove.webp",
+      "token": "rotrl/assets/tokens/chapter-1/aldern-foxglove.webp"
+    },
+    "XuNBZA76Cg3QgcQy": {
+      "actor": "rotrl/assets/portraits/chapter-1/erylium.webp",
+      "token": "rotrl/assets/tokens/chapter-1/erylium.webp"
+    }
+  }
+}

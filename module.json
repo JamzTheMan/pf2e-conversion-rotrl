@@ -1,186 +1,197 @@
 {
-    "id": "pf2e-conversion-rotrl",
-    "name": "pf2e-conversion-rotrl",
-    "title": "PF2e Conversion - Rise of the Runelords",
-    "description": "A module containing Scenes and PF2e conversions of creatures from Rise of the Runelords.",
-    "version": "1.0.0",
-    "library": "false",
-    "manifestPlusVersion": "1.0.0",
-    "compatibility": {
-        "minimum": "10",
-        "verified": "10"
+  "id": "pf2e-conversion-rotrl",
+  "name": "pf2e-conversion-rotrl",
+  "title": "PF2e Conversion - Rise of the Runelords",
+  "description": "A module containing Scenes and PF2e conversions of creatures from Rise of the Runelords.",
+  "version": "1.0.0",
+  "library": "false",
+  "manifestPlusVersion": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "packs": [
+    {
+      "name": "rise-of-the-runelords",
+      "label": "Rise of the Runelords",
+      "path": "./packs/rise-of-the-runelords.db",
+      "private": false,
+      "type": "Adventure",
+      "flags": {},
+      "system": "pf2e"
     },
-    "packs": [
-        {
-            "name": "rise-of-the-runelords",
-            "label": "Rise of the Runelords",
-            "path": "./packs/rise-of-the-runelords.db",
-            "private": false,
-            "type": "Adventure",
-            "flags": {},
-            "system": "pf2e"
-        }, {
-            "name": "rotrl-items",
-            "label": "RotRL Items",
-            "path": "./packs/rotrl-items.db",
-            "private": false,
-            "type": "Item",
-            "flags": {},
-            "system": "pf2e"
-        },
-        {
-            "name": "rotrl-creatures-chapter-1",
-            "label": "RotRL Creatures - Chapter 1",
-            "path": "./packs/rotrl-creatures-chapter-1.db",
-            "private": false,
-            "type": "Actor",
-            "flags": {},
-            "system": "pf2e"
-        },
-        {
-            "name": "rotrl-creatures-chapter-2",
-            "label": "RotRL Creatures - Chapter 2",
-            "path": "./packs/rotrl-creatures-chapter-2.db",
-            "private": false,
-            "type": "Actor",
-            "flags": {},
-            "system": "pf2e"
-        },
-        {
-            "name": "rotrl-creatures-chapter-3",
-            "label": "RotRL Creatures - Chapter 3",
-            "path": "./packs/rotrl-creatures-chapter-3.db",
-            "private": false,
-            "type": "Actor",
-            "flags": {},
-            "system": "pf2e"
-        },
-        {
-            "name": "rotrl-creatures-chapter-4",
-            "label": "RotRL Creatures - Chapter 4",
-            "path": "./packs/rotrl-creatures-chapter-4.db",
-            "private": false,
-            "type": "Actor",
-            "flags": {},
-            "system": "pf2e"
-        },
-        {
-            "name": "rotrl-creatures-chapter-5",
-            "label": "RotRL Creatures - Chapter 5",
-            "path": "./packs/rotrl-creatures-chapter-5.db",
-            "private": false,
-            "type": "Actor",
-            "flags": {},
-            "system": "pf2e"
-        },
-        {
-            "name": "rotrl-creatures-chapter-6",
-            "label": "RotRL Creatures - Chapter 6",
-            "path": "./packs/rotrl-creatures-chapter-6.db",
-            "private": false,
-            "type": "Actor",
-            "flags": {},
-            "system": "pf2e"
-        },
-        {
-            "name": "rotrl-scenes-chapter-1",
-            "label": "RotRL Scenes - Chapter 1",
-            "path": "./packs/rotrl-scenes-chapter-1.db",
-            "private": false,
-            "type": "Scene",
-            "flags": {}
-        },
-        {
-            "name": "rotrl-scenes-chapter-2",
-            "label": "RotRL Scenes - Chapter 2",
-            "path": "./packs/rotrl-scenes-chapter-2.db",
-            "private": false,
-            "type": "Scene",
-            "flags": {}
-        },
-        {
-            "name": "rotrl-scenes-chapter-3",
-            "label": "RotRL Scenes - Chapter 3",
-            "path": "./packs/rotrl-scenes-chapter-3.db",
-            "private": false,
-            "type": "Scene",
-            "flags": {}
-        },
-        {
-            "name": "rotrl-scenes-chapter-4",
-            "label": "RotRL Scenes - Chapter 4",
-            "path": "./packs/rotrl-scenes-chapter-4.db",
-            "private": false,
-            "type": "Scene",
-            "flags": {}
-        },
-        {
-            "name": "rotrl-scenes-chapter-5",
-            "label": "RotRL Scenes - Chapter 5",
-            "path": "./packs/rotrl-scenes-chapter-5.db",
-            "private": false,
-            "type": "Scene",
-            "flags": {}
-        },
-        {
-            "name": "rotrl-scenes-chapter-6",
-            "label": "RotRL Scenes - Chapter 6",
-            "path": "./packs/rotrl-scenes-chapter-6.db",
-            "private": false,
-            "type": "Scene",
-            "flags": {}
-        },
-        {
-            "name": "rotrl-journal-entries",
-            "label": "RotRL Journal Entries",
-            "path": "./packs/rotrl-journal-entries.db",
-            "private": false,
-            "type": "JournalEntry",
-            "flags": {}
-        },
-        {
-            "name": "rotrl-macros",
-            "label": "RotRL Macros",
-            "path": "./packs/rotrl-macros.db",
-            "private": false,
-            "type": "Macro",
-            "flags": {}
-        },
-        {
-            "name": "rotrl-roll-tables",
-            "label": "RotRL Roll Tables",
-            "path": "./packs/rotrl-roll-tables.db",
-            "private": false,
-            "type": "RollTable",
-            "flags": {}
-        },
-        {
-            "name": "rotrl-playlists",
-            "label": "RotRL Playlists",
-            "path": "./packs/rotrl-playlists.db",
-            "private": false,
-            "type": "Playlist",
-            "flags": {}
-        }
-    ],
-    "authors": [
-        {
-            "name": "JamzTheMan",
-            "url": "https://github.com/JamzTheMan/pf2e-conversion-rotrl",
-            "discord": "Jamz#7942"
-        }
-    ],
-    "conflicts": [],
-    "esmodules": [
-        "/scripts/module.js"
-    ],
-     "url": "https://github.com/JamzTheMan/pf2e-conversion-rotrl",
-     "manifest": "https://github.com/JamzTheMan/pf2e-conversion-rotrl/releases/latest/download/module.json",
-     "download": "https://github.com/JamzTheMan/pf2e-conversion-rotrl/releases/download/1.0.0/module.zip",
-     "media": [
-        {
-            "type": "icon",
-            "url": "https://avatars.githubusercontent.com/u/8051654?v=4"
-        }
-    ]
+    {
+      "name": "rotrl-items",
+      "label": "RotRL Items",
+      "path": "./packs/rotrl-items.db",
+      "private": false,
+      "type": "Item",
+      "flags": {},
+      "system": "pf2e"
+    },
+    {
+      "name": "rotrl-creatures-chapter-1",
+      "label": "RotRL Creatures - Chapter 1",
+      "path": "./packs/rotrl-creatures-chapter-1.db",
+      "private": false,
+      "type": "Actor",
+      "flags": {},
+      "system": "pf2e"
+    },
+    {
+      "name": "rotrl-creatures-chapter-2",
+      "label": "RotRL Creatures - Chapter 2",
+      "path": "./packs/rotrl-creatures-chapter-2.db",
+      "private": false,
+      "type": "Actor",
+      "flags": {},
+      "system": "pf2e"
+    },
+    {
+      "name": "rotrl-creatures-chapter-3",
+      "label": "RotRL Creatures - Chapter 3",
+      "path": "./packs/rotrl-creatures-chapter-3.db",
+      "private": false,
+      "type": "Actor",
+      "flags": {},
+      "system": "pf2e"
+    },
+    {
+      "name": "rotrl-creatures-chapter-4",
+      "label": "RotRL Creatures - Chapter 4",
+      "path": "./packs/rotrl-creatures-chapter-4.db",
+      "private": false,
+      "type": "Actor",
+      "flags": {},
+      "system": "pf2e"
+    },
+    {
+      "name": "rotrl-creatures-chapter-5",
+      "label": "RotRL Creatures - Chapter 5",
+      "path": "./packs/rotrl-creatures-chapter-5.db",
+      "private": false,
+      "type": "Actor",
+      "flags": {},
+      "system": "pf2e"
+    },
+    {
+      "name": "rotrl-creatures-chapter-6",
+      "label": "RotRL Creatures - Chapter 6",
+      "path": "./packs/rotrl-creatures-chapter-6.db",
+      "private": false,
+      "type": "Actor",
+      "flags": {},
+      "system": "pf2e"
+    },
+    {
+      "name": "rotrl-scenes-chapter-1",
+      "label": "RotRL Scenes - Chapter 1",
+      "path": "./packs/rotrl-scenes-chapter-1.db",
+      "private": false,
+      "type": "Scene",
+      "flags": {},
+      "system": "pf2e"
+    },
+    {
+      "name": "rotrl-scenes-chapter-2",
+      "label": "RotRL Scenes - Chapter 2",
+      "path": "./packs/rotrl-scenes-chapter-2.db",
+      "private": false,
+      "type": "Scene",
+      "flags": {},
+      "system": "pf2e"
+    },
+    {
+      "name": "rotrl-scenes-chapter-3",
+      "label": "RotRL Scenes - Chapter 3",
+      "path": "./packs/rotrl-scenes-chapter-3.db",
+      "private": false,
+      "type": "Scene",
+      "flags": {},
+      "system": "pf2e"
+    },
+    {
+      "name": "rotrl-scenes-chapter-4",
+      "label": "RotRL Scenes - Chapter 4",
+      "path": "./packs/rotrl-scenes-chapter-4.db",
+      "private": false,
+      "type": "Scene",
+      "flags": {},
+      "system": "pf2e"
+    },
+    {
+      "name": "rotrl-scenes-chapter-5",
+      "label": "RotRL Scenes - Chapter 5",
+      "path": "./packs/rotrl-scenes-chapter-5.db",
+      "private": false,
+      "type": "Scene",
+      "flags": {},
+      "system": "pf2e"
+    },
+    {
+      "name": "rotrl-scenes-chapter-6",
+      "label": "RotRL Scenes - Chapter 6",
+      "path": "./packs/rotrl-scenes-chapter-6.db",
+      "private": false,
+      "type": "Scene",
+      "flags": {},
+      "system": "pf2e"
+    },
+    {
+      "name": "rotrl-journal-entries",
+      "label": "RotRL Journal Entries",
+      "path": "./packs/rotrl-journal-entries.db",
+      "private": false,
+      "type": "JournalEntry",
+      "flags": {},
+      "system": "pf2e"
+    },
+    {
+      "name": "rotrl-macros",
+      "label": "RotRL Macros",
+      "path": "./packs/rotrl-macros.db",
+      "private": false,
+      "type": "Macro",
+      "flags": {},
+      "system": "pf2e"
+    },
+    {
+      "name": "rotrl-roll-tables",
+      "label": "RotRL Roll Tables",
+      "path": "./packs/rotrl-roll-tables.db",
+      "private": false,
+      "type": "RollTable",
+      "flags": {},
+      "system": "pf2e"
+    },
+    {
+      "name": "rotrl-playlists",
+      "label": "RotRL Playlists",
+      "path": "./packs/rotrl-playlists.db",
+      "private": false,
+      "type": "Playlist",
+      "flags": {},
+      "system": "pf2e"
+    }
+  ],
+  "authors": [
+    {
+      "name": "JamzTheMan",
+      "url": "https://github.com/JamzTheMan/pf2e-conversion-rotrl",
+      "discord": "Jamz#7942"
+    }
+  ],
+  "conflicts": [],
+  "esmodules": [
+    "/scripts/module.js"
+  ],
+  "url": "https://github.com/JamzTheMan/pf2e-conversion-rotrl",
+  "manifest": "https://github.com/JamzTheMan/pf2e-conversion-rotrl/releases/latest/download/module.json",
+  "download": "https://github.com/JamzTheMan/pf2e-conversion-rotrl/releases/download/1.0.0/module.zip",
+  "media": [
+    {
+      "type": "icon",
+      "url": "https://avatars.githubusercontent.com/u/8051654?v=4"
+    }
+  ]
 }
