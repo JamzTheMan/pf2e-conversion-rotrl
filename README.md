@@ -41,11 +41,15 @@ Open this compendium to import the whole adventure or individual chapters. (I re
 ![](docs/adventure-compendium.jpg)
 
 Importing all chapters...
+
 ![](docs/import-all.jpg)
 
 Importing Chapter 1...
+
 ![](docs/import-chapter-1.jpg)
 
+* * *
+If you are seeing missing artwork (white triable with ! mark) I had some maps using animations from the modules `Jack Kerouac's Animated Tokens` and `Jinker's Animated Art Pack`. You can either install those modules or go to the tile layer and delete them, they are mainly just for "effect" and nothing "functional".
 * * *
 
 TODO:
